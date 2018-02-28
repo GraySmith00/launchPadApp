@@ -4,7 +4,7 @@
   "description": "sweet launch pad add",
   "main": "app.js",
   "now": {
-    "dotenv": "varialbes.env.now"
+    "dotenv": "variables.env.now"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
