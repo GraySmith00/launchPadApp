@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "sweet launch pad add",
   "main": "app.js",
-  "now": {
-    "dotenv": "variables.env.now"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app.js"
