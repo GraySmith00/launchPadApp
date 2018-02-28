@@ -1,12 +1,15 @@
 {
-  "name": "fingerkeysapp",
+  "name": "launchPadApp",
   "version": "1.0.0",
   "description": "sweet launch pad add",
   "main": "app.js",
+  "now": {
+    "dotenv": "varialbes.env.now"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Gray Smith",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.7",
