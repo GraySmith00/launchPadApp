@@ -1,8 +1,3 @@
-// const chordCodes = [66, 78, 77, 188, 71, 72, 74, 75];
-// const drumCodes = [90, 88, 67, 86];
-// const voxCodes = [65, 83, 68, 70];
-// const melodyCodes = [81, 87, 69, 82, 84, 89, 85, 73, 79, 80];
-
 const codeGroupsArray = [
   [81, 87, 69, 82, 84, 89, 85, 73], //melody
   [66, 78, 77, 188, 71, 72, 74, 75], //chords
