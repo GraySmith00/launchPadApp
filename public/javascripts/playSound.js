@@ -5,12 +5,26 @@ const codeGroupsArray = [
   [65, 83, 68, 70] // vox
 ]
 
+function allSoundsOff (e) {
+  const audios = document.getElementsByTagName('audio');
+  for(var i = 0, len = audios.length; i < len;i++){
+      if(audios[i] != e.target){
+          audios[i].pause();
+      }
+  }
+}
 
 function playSound(e, keyCodeArray) {
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+  if(e.keyCode === 32) {
+    allSoundsOff(e);
+    key.classList.add('playing');
+    return;
+  }
   if(!audio) return; 
   if(!keyCodeArray.includes(e.keyCode)) return;
+  
   
   audio.currentTime = 0; 
   audio.play();

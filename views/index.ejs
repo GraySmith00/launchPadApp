@@ -37,6 +37,15 @@
       <% }) %>     
     </div>
     
+    <div class="keys">
+      <% spaceBar.forEach(key => { %>
+        <div data-key="<%= key[0] %>" class="key spaceBar"> 
+          <kbd><%= key[1] %></kbd>
+          <span class="sound"><%= key[2] %></span>
+        </div>        
+      <% }) %>     
+    </div>
+    
   </div>
   
   <audio data-key="81" src="sounds/melody/MelodyLowGSharp(iv).ogg"></audio>

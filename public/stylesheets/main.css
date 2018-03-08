@@ -4,7 +4,7 @@ html {
   background-size: cover;
   height: 100%;
 }
-body,html {
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -34,6 +34,11 @@ body,html {
   color: white;
   background: rgba(0,0,0,0.6);
   text-shadow: 0 0 .5rem black;
+}
+
+.spaceBar {
+  width: 40rem;
+  font-size: 1.2rem;
 }
 
 .playing {
